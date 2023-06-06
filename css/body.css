@@ -115,7 +115,103 @@ width: 33%;
 #section-4 *{
     padding: 3rem 0;
 }
-#section-4
+
+/* section 5 */
+.sfondo-designit{
+    background-color: var(--coloredesignit);
+    border: 10px solid var(--coloredesign-bordo);
+    
+}
+.sfonto-designit-bg{
+    background-color: var(--coloredesign-bordo);
+}
+.sfondo-asu{
+    background-color: var(--coloreasu);
+}
+.sfondo-uf{
+    background-color: var(--coloreuf);
+}
+.sfondo-topps{
+    background-color: var(--coloretopps);
+}
+.sfondo-bicycle{
+    background-color: var(--colorebicycle);
+}
+.sfondo-hearst{
+    background-color: var(--colorehearst);
+}
+.sfondo-planet{
+    background-color: var(--coloreplanet);
+}
+.sfondo-clear{
+    background-color: var(--coloreclear);
+}
+.quadro > div {flex-basis: 50%;
+    height: 50%;
+}
+.quadro img{
+    width:50%;
+    padding: 1rem;
+}
+.quadro{
+    width: 33%;
+}
+.quadro > div > div{
+    height: 100%
+}
+.contenitore-section-5{
+    height: 33vw;
+}
+.centratura-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-5-box-centrale{
+    background-color: var(--coloremiddlebox);
+    flex-basis: 33%;
+    height: 100%;
+}
+.section-5-padding{
+    padding: 3rem;
+}
+.section-5-middle-img{
+    width: 50%;
+}
+.text-small{
+    font-size: 12px;
+}
+.contenitore-section-5 img{
+    filter: invert(100%) sepia(0%) saturate(1056%) hue-rotate(252deg) brightness(122%) contrast(100%);
+}
+#img5 img {
+    filter: invert(0%) sepia(99%) saturate(12%) hue-rotate(217deg) brightness(98%) contrast(100%);
+}
+.contenitore-prova-gratuita{
+    background-color:rgb(180, 208, 231) ;
+}
+.contenitore-prova-gratuita h2{
+    color: rgb(94, 0, 35);
+}
+.prova-gratuita-style{
+    flex-basis: 50%;
+    justify-content: space-between;
+    align-items: center;
+}
+.prova-gratuita-style button{
+    padding: 0.5rem 2rem;
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
 
 /* section 6 */
 .questions-style{
