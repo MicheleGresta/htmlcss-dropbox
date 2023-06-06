@@ -1,0 +1,30 @@
+#section-hero{
+    background-color: var(--coloreazzurro);
+    width: 100%;
+    
+}
+.hero-flex-box-1{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.hero-flex-box-1 button{ 
+    width: 200px;
+}
+.downarrow{
+    font-size: 2.5rem;
+}
+.hero-flex-box-2{
+    width: 70%;
+    position: relative;
+}
+.section-1-box{
+    gap: 1rem;
+}
+.hero-flex-box-2 img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 350px;
+}
