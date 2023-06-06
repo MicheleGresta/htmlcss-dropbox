@@ -1,13 +1,14 @@
 :root {
     --coloreblu: rgb(0, 68, 255);
     --coloreazzurro: rgb(184, 215, 240);
-    --coloregrey: rgb(194, 193, 193);
+    --coloregrey: rgb(185, 183, 183);
 }
 
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .flex{display: flex;}
 .bottone{
@@ -20,6 +21,12 @@
     color: white;
     padding: 0.4rem 1rem;
     border-radius: 3px;
+}
+.bottone-bianco{
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+    padding: 0.5rem;
 }
 .container{
     width: 1000px;
@@ -52,8 +59,19 @@ h6{
 .spaziatura{
     margin:2rem 0;
 }
-
-
+.gap1{
+    gap: 1rem;
+}
+.gap2{
+    gap: 2rem;
+}
 .column{
     flex-direction: column;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.padding-section{padding: 5rem 0;}
+.justify-between{
+    justify-content: space-between;
 }

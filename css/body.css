@@ -84,3 +84,77 @@
 .card-4-container{
     border: 1px solid var(--coloregrey);
 }
+
+/* section 2 */
+.section-2-spacing{
+    gap: 1rem;
+}
+.partner-img{
+    width: 100%;
+}
+.section-2-img{
+    width: 66%;
+}
+.section-2-text{
+width: 33%;
+}
+
+
+/* section 3  */
+.slot{
+    width:31%;
+}
+.slot-img{
+    width: 100%;
+}
+#section-3 h2{
+    padding-bottom: 2rem;
+}
+
+/* section 4 */
+#section-4 *{
+    padding: 3rem 0;
+}
+#section-4
+
+/* section 6 */
+.questions-style{
+    border: 10px solid var(--coloregrey);
+    padding: 1rem;
+}
+#section-6 hr{
+    margin: 3rem 0;
+}
+hr{
+    border: 1px solid var(--coloregrey);
+}
+#section-6 i{
+    padding-right:2rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+/* footer */
+footer{
+    background-color: black;
+}
+footer .gruppo-footer{color: white;}
+footer li{
+    list-style: none;
+    padding: 0.8rem 0;
+}
+footer ul{
+    padding: 2rem 0;
+}
+.footer-lists{
+    flex-grow: 1;
+}
+.footer-breakline{
+    width: 100px;
+    height: 1px;
+    background-color: var(--coloregrey);
+    margin: 3rem 0;
+}
+.lingua{
+    color: var(--coloregrey);
+}
