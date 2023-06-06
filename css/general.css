@@ -1,6 +1,7 @@
 :root {
     --coloreblu: rgb(0, 68, 255);
     --coloreazzurro: rgb(184, 215, 240);
+    --coloregrey: rgb(194, 193, 193);
 }
 
 *{
@@ -23,10 +24,36 @@
 .container{
     width: 1000px;
     margin: 0 auto;
+
 }
 .container+{
     width: 1150px;
 }
 h1{
     font-size: 4rem;    
+}
+h2{
+    font-size: 2.2rem;
+}
+h3{
+    font-size: 1.5rem;
+    margin-top:0.5rem;
+}
+h5{
+    font-size: 1rem;
+}
+h6{
+    font-size: 1rem;
+    color: var(--coloregrey);
+}
+.gap3-spacing{
+    gap: 3rem;
+}
+.spaziatura{
+    margin:2rem 0;
+}
+
+
+.column{
+    flex-direction: column;
 }

@@ -1,7 +1,11 @@
+/* section hero */
 #section-hero{
     background-color: var(--coloreazzurro);
     width: 100%;
     
+}
+.padding-top-h1{    
+    padding-top: 5rem;
 }
 .hero-flex-box-1{
     width: 30%;
@@ -19,12 +23,64 @@
     width: 70%;
     position: relative;
 }
-.section-1-box{
+.section-hero-box{
     gap: 1rem;
+    padding-top:2rem;
+    margin-bottom: 2rem;
 }
 .hero-flex-box-2 img{
     position: absolute;
     top: 0;
     left: 0;
     height: 350px;
+
+}
+/* section cards */
+.cards{
+    gap: 3rem;
+}
+.card{
+    flex-basis: 33%;    
+}
+.check{color: var(--coloreblu);
+
+}
+.padding-right{
+        padding-right: 5px;
+    }
+.sezione-card{
+    text-align: center;
+    border: 1px solid var(--coloregrey);
+    padding: 0.5rem;
+}
+.card-container{
+    border: 1px solid var(--coloregrey);
+    gap: 1rem;
+    padding: 1rem 1.5rem;
+    height: 850px;
+}
+.breakline{
+    width: 3rem;
+    height: 1px;
+    background-color: var(--coloregrey);
+}
+.card-spacing-large{
+    margin:1.5rem 0;
+}
+.card-spacing-small{
+    margin:0.5rem 0;
+}
+#info-sub *{
+    margin:0.5rem 0;
+}
+.card button {
+    margin-left: 14%;
+}
+/* card orizzontale */
+.padding-top-card-4{padding-top: 2rem;}
+.card-4{
+    padding: 1.5rem 1.5rem;
+}
+.card-4-container{
+    border: 1px solid var(--coloregrey);
 }
