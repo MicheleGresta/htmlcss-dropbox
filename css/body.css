@@ -32,8 +32,8 @@
     position: absolute;
     top: 0;
     left: 0;
+    width: 100%;
     height: 350px;
-
 }
 /* section cards */
 .cards{
@@ -102,7 +102,7 @@ width: 33%;
 
 /* section 3  */
 .slot{
-    width:31%;
+    width: 31%;
 }
 .slot-img{
     width: 100%;
@@ -118,33 +118,36 @@ width: 33%;
 
 /* section 5 */
 .sfondo-designit{
-    background-color: var(--coloredesignit);
-    border: 10px solid var(--coloredesign-bordo);
-    
-}
-.sfonto-designit-bg{
-    background-color: var(--coloredesign-bordo);
+    background-color: var(--coloredesignit); 
+    border: 15px solid transparent;   
 }
 .sfondo-asu{
     background-color: var(--coloreasu);
+    border: 15px solid transparent; 
 }
 .sfondo-uf{
     background-color: var(--coloreuf);
+    border: 15px solid transparent; 
 }
 .sfondo-topps{
     background-color: var(--coloretopps);
+    border: 15px solid transparent; 
 }
 .sfondo-bicycle{
     background-color: var(--colorebicycle);
+    border: 15px solid transparent; 
 }
 .sfondo-hearst{
     background-color: var(--colorehearst);
+    border: 15px solid transparent; 
 }
 .sfondo-planet{
     background-color: var(--coloreplanet);
+    border: 15px solid transparent; 
 }
 .sfondo-clear{
     background-color: var(--coloreclear);
+    border: 15px solid transparent; 
 }
 .quadro > div {flex-basis: 50%;
     height: 50%;
@@ -154,13 +157,13 @@ width: 33%;
     padding: 1rem;
 }
 .quadro{
-    width: 33%;
+    aspect-ratio: 1/1;
 }
 .quadro > div > div{
-    height: 100%
+    height: 100%;
 }
 .contenitore-section-5{
-    height: 33vw;
+    height: calc(100vw / 3);
 }
 .centratura-img{
     display: flex;
@@ -169,8 +172,7 @@ width: 33%;
 }
 .section-5-box-centrale{
     background-color: var(--coloremiddlebox);
-    flex-basis: 33%;
-    height: 100%;
+    aspect-ratio: 1/1;
 }
 .section-5-padding{
     padding: 3rem;
@@ -202,8 +204,30 @@ width: 33%;
     padding: 0.5rem 2rem;
     background-color: white;
 }
-
-
+.sfondo-hearst:hover { 
+    border-color: rgba(255, 255, 255, 0.295);
+}
+.sfondo-designit:hover { 
+    border-color: rgba(255, 255, 255, 0.295);
+}
+.sfondo-asu:hover { 
+    border-color: rgba(255, 255, 255, 0.295);
+}
+.sfondo-uf:hover { 
+    border-color: rgba(255, 255, 255, 0.295);
+}
+.sfondo-topps:hover { 
+    border-color: rgba(255, 255, 255, 0.295);
+}
+.sfondo-bicycle:hover { 
+    border-color: rgba(255, 255, 255, 0.295);
+}
+.sfondo-planet:hover { 
+    border-color: rgba(255, 255, 255, 0.295);
+}
+.sfondo-clear:hover { 
+    border-color: rgba(255, 255, 255, 0.295);
+}
 
 
 
